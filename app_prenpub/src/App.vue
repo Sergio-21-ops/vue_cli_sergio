@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <HelloWorld msg="Estamos probando vue 2 por cliS"/>
-    <contenido_app/>
+    <Contenido/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import contenido_app from './components/contenido_app.vue'
+import Contenido from './components/Contenido.vue'
 
 export default {
   name: 'App',
   components: {
-    contenido_app,
+    Contenido,
     HelloWorld
   }
 }
